@@ -36,3 +36,7 @@ function select_deactivation() {
 }
 
 register_deactivation_hook( __FILE__, 'select_deactivation' );
+
+
+// register_uninstall_hook(__FILE__, 'pluginprefix_function_to_run');
+
